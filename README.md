@@ -25,7 +25,7 @@ fit the model and then predict
 ## PROGRAM
 
 !git clone https://github.com/obedotto/rnn-stock-price-prediction.git
-
+```
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -113,7 +113,7 @@ plt.show()
 m=tf.keras.losses.MeanSquaredError()
 
 m(dataset_test["Close"],predicted_stock_price)
-
+```
 ## OUTPUT
 
 ### True Stock Price, Predicted Stock Price vs time
